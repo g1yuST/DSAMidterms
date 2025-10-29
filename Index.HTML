@@ -1,79 +1,73 @@
+// ALL THE INSTRUCTIONS NEEDED FOR THE QUIZ 2 //
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Instructions for setting up Git, GitHub, and VS Code</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git and GitHub Setup Guide</title>
 </head>
 <body>
+    <h1>Setting up Git and GitHub</h1>
 
-<h1>Setting up Git</h1>
+    <p><strong>Name:</strong> Belolo Anthony P.<br>
+    <strong>Section:</strong> BSCpE 1-1</p>
 
-
-<p>1. Go to <a href="https://git-scm.com/">https://git-scm.com/</a></p>
-<p>2. Go to Downloads and choose your OS. Click the Standalone Installer and install it.</p>
-<p>3. Go to your file manager, right-click to check if Git is installed properly. Create a file (for example, HelloWorld.html).</p>
-
-<p>4. Open Git Bash and type these commands:</p>
-<pre>
+    <h2>Setting up Git</h2>
+    <ol>
+        <li>Go to <a href="https://git-scm.com/" target="_blank">https://git-scm.com/</a>.</li>
+        <li>Download and install Git based on your OS.</li>
+        <li>Right-click in your file manager to check if Git installed properly.</li>
+        <li>Create a new file (e.g., HelloWorld.html).</li>
+        <li>Open Git Bash and type:
+            <pre>
 git config --global user.name "Your Name"
 git config --global user.email "you@youraddress.com"
 git config --global push.default matching
 git config --global alias.co checkout
 git init
-</pre>
-
-<p>All information must be accurate with your GitHub account.</p>
-
-<p>5. Then type these commands:</p>
-<pre>
+            </pre>
+        </li>
+        <li>Make sure your GitHub account info is accurate.</li>
+        <li>Then type:
+            <pre>
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/g1yuST/DSAMidterms
 git push -u origin main
-</pre>
+            </pre>
+        </li>
+        <li>Check if the files are uploaded on GitHub.</li>
+    </ol>
 
-<p>Make sure you added the file README.md before running this.</p>
-<p>Refresh GitHub to check if the files are uploaded.</p>
+    <h3>Life Hack:</h3>
+    <p>To clone your repository anywhere:</p>
+    <pre>$ git clone https://github.com/g1yuST/DSAMidterms.git</pre>
 
-<h3>Life Hack</h3>
-<p>Open Git Bash and type:</p>
-<pre>
-git clone https://github.com/g1yuST/DSAMidterms.git
-</pre>
-<p>You can now access your files anywhere.</p>
+    <h2>Setting up GitHub</h2>
+    <ol>
+        <li>Go to <a href="https://github.com/" target="_blank">https://github.com/</a>.</li>
+        <li>Sign up or sign in using your school email.</li>
+        <li>Create a repository named <strong>DSAMidterms</strong> (set to public).</li>
+        <li>Follow the “create a new repository on the command line” instructions.</li>
+        <li>Check that all files are synced.</li>
+    </ol>
 
-<hr>
-
-<h1>Setting up GitHub</h1>
-
-
-<p>1. Go to <a href="https://github.com/">https://github.com/</a></p>
-<p>2. Sign up or sign in using your school email.</p>
-<p>3. Create a repository named <b>DSAMidterms</b>. Set it to Public.</p>
-<p>4. You will see “create a new repository on the command line.”</p>
-<p>5. Since you already have the files, you can view or compile them in your repository.</p>
-<p>6. Check that all files are synced.</p>
-
-<hr>
-
-<h1>Setting up Visual Studio Code</h1>
-
-
-<p>1. Go to <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p>
-<p>2. Choose your OS and install it.</p>
-<p>3. Sync everything with your GitHub account.</p>
-<p>4. Create a file for your work.</p>
-<p>5. Press Ctrl + A on the name bar above and replace it with cmd to access Command Prompt easily.</p>
-<p>6. Type <code>code .</code> and VS Code will open. Check if it’s synced with GitHub.</p>
-<p>7. Go to Terminal → add Command Prompt. Turn on Auto Save. Add extensions for Conventional Commits and Source Control.</p>
-<p>8. Create a simple HTML file “HelloWorld” and test it.</p>
-<p>9. Use Source Control to check changes, stage them, and commit. Then push to GitHub.</p>
-
-<h3>Try Another Example</h3>
-<p>1. Make another HTML file to see changes in Source Control.</p>
-<p>2. Add notes or emojis if you like, save it, and check on GitHub.</p>
-<p>3. Try editing your README.md file and see it appear in your repository.</p>
-
+    <h2>Setting up Visual Studio Code</h2>
+    <ol>
+        <li>Go to <a href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a>.</li>
+        <li>Download and install VS Code for your OS.</li>
+        <li>Open the folder synced with GitHub.</li>
+        <li>Use the terminal and type <code>code .</code> to open VS Code.</li>
+        <li>Enable Auto Save and add extensions for Conventional Commits and Source Control.</li>
+        <li>Create a simple <strong>HelloWorld.html</strong> file and test it.</li>
+        <li>Use Source Control to commit and push changes to GitHub.</li>
+        <li>Try editing <strong>README.md</strong> and pushing again.</li>
+    </ol>
 </body>
 </html>
+
+
+ // END // 
